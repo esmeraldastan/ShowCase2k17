@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=rows\ columns
+comment0.target=NewMinesweeper(int,\ int)
+comment1.params=
+comment1.target=NewMinesweeper()
+comment2.params=
+comment2.target=void\ printBoard2()
+comment3.params=bombs
+comment3.target=void\ addBombs(int)
+comment4.params=
+comment4.target=void\ numbsAdded()
+numComments=5
