@@ -1,9 +1,0 @@
-import java.util.Scanner;
-public class GameRunner {
-	public static void main(){
-		Scanner scanner = new Scanner(System.in);
-		System.out.print("What would you like to type?");
-		scanner.next();
-		
-	}
-}
