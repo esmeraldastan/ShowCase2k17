@@ -45,7 +45,7 @@ public class NewMinesweeper{
    //bomb adding
    public void addBombs(int bombs)throws Exception{
         if ( bombs < 1){
-            throw new Exception(" Trying to cheat I see.... Not happening sucker!");
+            throw new Exception("There has to tbe more then one bomb inserted");
         }
         else if (bombs >= 101 ){
             throw new Exception( "Trying to kill your self?! That's great!");
