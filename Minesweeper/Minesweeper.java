@@ -8,6 +8,8 @@
 
 //final game for show case 
 //creat gui for final
+//4 days to work on
+
 import java.lang.Math;
 public class Minesweeper{
     //list 
