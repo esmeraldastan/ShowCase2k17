@@ -1,0 +1,39 @@
+/**
+ * 
+ * @author Esmeralda Lopez
+ * @version 5.09.17
+ */
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+
+public class GuiMs extends JPanel{
+	//private JLabel topLabel = new JLabel("Minesweeper");
+	private JLabel screenLabel = new JLabel("Welcome");
+	
+	private int rows = 10;
+	private int columns = 10;
+	private int bombsplace = 10;
+	private JButton addBombs [][];
+	private JButton cell;
+	
+public GuiMs(){
+	setLayout(new GridLayout(10,10));
+	addBombs = new JButton[rows][columns];
+	JFrame frame = new JFrame();
+	JPanel panel = new JPanel();
+	panel.setLayout(new GridLayout(10,10));
+	frame.add(panel);
+	frame.setSize(500, 500);
+	frame.setVisible(true);
+	frame.title("hello");'
+
+	
+	
+	
+}
+}
+	
+
+
