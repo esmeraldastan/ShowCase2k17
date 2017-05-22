@@ -10,6 +10,7 @@ public class NewGameRunner
   //test runner
     public static void main(String[] args){
         try {
+       
         NewMinesweeper game = new NewMinesweeper();
         game.addBombs(10);
         game.numbsAdded();
